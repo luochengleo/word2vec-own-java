@@ -11,8 +11,9 @@ public class Main {
     }
 
     public static void main(String[] args) throws Exception {
-        String inputFileName = args[1];
-        String outputFileName = args[2];
+
+        String inputFileName = args[0];
+        String outputFileName = args[1];
 
         BufferedReader br  = new BufferedReader(new InputStreamReader(new FileInputStream(inputFileName)));
         BufferedWriter bw  = new BufferedWriter(new OutputStreamWriter(new FileOutputStream(outputFileName)));

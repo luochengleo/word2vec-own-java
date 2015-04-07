@@ -1,0 +1,1 @@
+ /work/luocheng/utils/jdk1.8.0_40/bin/java -Dfile.encoding=GBK -jar word2vec.jar ../data/raw/pages.tar.gz002 ../data/content/pages.tar.gz002.content
